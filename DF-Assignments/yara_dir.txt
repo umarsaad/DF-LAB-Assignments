@@ -1,0 +1,9 @@
+rule yara{
+
+	strings:
+		$s1 = "k201671-umar"
+		
+	condition:
+		$s1
+
+}
