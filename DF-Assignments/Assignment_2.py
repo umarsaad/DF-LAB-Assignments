@@ -53,8 +53,8 @@ if __name__=="__main__":
     	    x = Check_file_in_Dir(file2, file1)	
     		 			    	
     if (x):
-        print("matched")
+        print("found")
     else:
-    	print("Not matched")
+    	print("Not found")
     
 
